@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+    <record id="ir_model_access_new_manage_product_class_r0" model="ir.model.access">
+      <field name="name">manage product class</field>
+      <field name="active" eval="True"/>
+      <field name="group_id" ref="base.group_system"/>
+      <field name="model_id" ref="product_class.model_product_class"/>
+      <field name="perm_create" eval="True"/>
+      <field name="perm_read" eval="True"/>
+      <field name="perm_unlink" eval="True"/>
+      <field name="perm_write" eval="True"/>
+    </record>
+    <record id="ir_model_access_new_product_class_read_r0" model="ir.model.access">
+      <field name="name">product class read</field>
+      <field name="active" eval="True"/>
+      <field name="group_id" ref="base.group_sale_salesman"/>
+      <field name="model_id" ref="product_class.model_product_class"/>
+      <field name="perm_create" eval="False"/>
+      <field name="perm_read" eval="True"/>
+      <field name="perm_unlink" eval="False"/>
+      <field name="perm_write" eval="False"/>
+    </record>
+  </data>
+</openerp>

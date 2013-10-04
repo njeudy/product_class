@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+  <data>
+    <menuitem id="ir_ui_menu_new_product_class_r0" name="Product class" parent="base.menu_product" sequence="10" action="product_class.ir_actions_act_window_new_product_class_r0"/>
+  </data>
+</openerp>

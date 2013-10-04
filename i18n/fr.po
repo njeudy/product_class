@@ -1,0 +1,65 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* product_class
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 7.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-03 15:36+0000\n"
+"PO-Revision-Date: 2013-10-03 15:36+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: product_class
+#: model:ir.model,name:product_class.model_product_class
+msgid "Class for the product (eg. subproduct, packaging, ...)"
+msgstr "Classe de produit (ex. Sous-produit, emballage, modèle, ...)"
+
+#. module: product_class
+#: view:product.class:0
+#: field:product.product,class_id:0
+msgid "Product Class"
+msgstr "Classe de produit"
+
+#. module: product_class
+#: model:ir.model,name:product_class.model_product_product
+msgid "Product"
+msgstr "Article"
+
+#. module: product_class
+#: field:product.class,code:0
+msgid "Code"
+msgstr "Code"
+
+#. module: product_class
+#: view:product.class:0
+#: field:product.class,description:0
+msgid "Description"
+msgstr "Description"
+
+#. module: product_class
+#: view:product.class:0
+msgid "Use product class to filter product on your OpenERP instance. eg. filter for subproduct, top product, packaging product ..."
+msgstr "La classe du produit est utilisée pour filtrer efficacement les produit (dans un context fonctionel). ex. Filtre sur les sous-produit, modèle, emballage, produit phare ..."
+
+#. module: product_class
+#: model:ir.actions.act_window,name:product_class.ir_actions_act_window_new_product_class_r0
+#: model:ir.ui.menu,name:product_class.ir_ui_menu_new_product_class_r0
+msgid "Product class"
+msgstr "Classe du produit"
+
+#. module: product_class
+#: help:product.product,class_id:0
+msgid "Add a class to product and use it for product filtering"
+msgstr "Ajouter une classe de produit vous permet de les filtrers plus efficacement."
+
+#. module: product_class
+#: field:product.class,name:0
+msgid "Name"
+msgstr "Nom"
+
