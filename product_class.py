@@ -15,8 +15,8 @@ class ProductClass(osv.Model):
     }
 
 class ProductProduct(osv.Model):
-    _name = 'product.product'
-    _inherit = 'product.product'
+    _name = 'product.template'
+    _inherit = 'product.template'
 
     _columns = {
         'class_id': fields.many2one('product.class', 'Product Class',

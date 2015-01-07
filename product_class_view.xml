@@ -2,20 +2,21 @@
 <openerp>
   <data>
     <record id="ir_ui_view_new_product_product_inherit_product_class_r0" model="ir.ui.view">
-      <field name="name">product.product.inherit_product_class</field>
+      <field name="name">product.template.inherit_product_class</field>
       <field name="arch" type="xml">
         <field name="type" position="after">
           <field name="class_id"/>
         </field>
       </field>
-      <field name="inherit_id" ref="product.product_normal_form_view"/>
-      <field name="model">product.product</field>
+      <field name="inherit_id" ref="product.product_template_form_view"/>
+      <field name="model">product.template</field>
       <field name="priority">8</field>
     </record>
+
     <record id="ir_ui_view_new_product_class_r0" model="ir.ui.view">
       <field name="name">Product Class</field>
       <field name="arch" type="xml">
-        <form string="Product Class" version="7.0">
+        <form string="Product Class">
           <sheet>
             <p>Use product class to filter product on your OpenERP instance. eg. filter for subproduct, top product, packaging product ...</p>
             <group cols="4">
